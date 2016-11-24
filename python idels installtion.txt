@@ -8,7 +8,12 @@ Windows:
 		-> copy the python path
 		-> right click on mycomputer -> advanced settings -> Environment variables 
 		-> under system variables search for "path" variable. select it and edit the path 
-		and click on apply. 
+		and click on apply.
+
+        Anaconda installation:
+		go here https://www.continuum.io/downloads and download the file. 
+		install it. With this installation ipython, ipython notebook will come.
+		goto cmd type : ipython or ipython notebook to step into ides 
 
 	
 	Module installation:
@@ -35,6 +40,12 @@ Linux:
 	Run a file:
 		python "path of a file" without quotaions
 
+	Anaconda installtion
+		https://www.continuum.io/downloads
+		bash filename
+		With this installation ipython, ipython notebook will installs.
+		module installation
+
 	
 
 install sublimetext3:
@@ -46,4 +57,14 @@ install sublimetext3:
 		https://www.sublimetext.com/3
 		Goto above link and click on windows 64it or windows(depends on your os bit version)
 		This will downloads a .exe file. just doble click on this file to install it
+
+
+
+Conda commands(common for any os):   
+	conda -V   (to know the anacoda version)
+	conda install modulename(to install a python module)
+    conda env list (to list out all the environments in the system)   
+    conda create --name python3 python=3 pandas(to create a new environment with the name python3, python version = 3. Tt is alos going to install pandas module in to that environment)   
+	to activate environament use:    source activate environment_name   
+	to deactivate:    source deactivate
 
