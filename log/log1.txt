@@ -1,0 +1,51 @@
+WARNING:root:warning
+ERROR:root:error
+ERROR:root:exception
+None
+DEBUG:root:debug
+INFO:root:info
+WARNING:root:warning
+ERROR:root:error
+ERROR:root:exception
+None
+DEBUG->debug
+INFO->info
+WARNING->warning
+ERROR->error
+ERROR->exception
+None
+2016-12-25 09:35:35,095->DEBUG->debug	
+2016-12-25 09:35:35,097->INFO->info	
+2016-12-25 09:35:35,098->WARNING->warning	
+2016-12-25 09:35:35,098->ERROR->error	
+2016-12-25 09:35:35,098->ERROR->exception	
+None
+2016-12-25 09:40:50,040->INFO->program started
+2016-12-25 09:40:54,023->INFO->res=10
+2016-12-25 09:40:54,025->INFO->program ended
+2016-12-25 09:41:09,586->INFO->program started
+2016-12-25 09:41:12,098->ERROR->integer division or modulo by zero
+Traceback (most recent call last):
+  File "example.py", line 10, in <module>
+    res = 100/a
+ZeroDivisionError: integer division or modulo by zero
+2016-12-25 09:41:12,106->INFO->program ended
+2016-12-25 09:41:28,544->INFO->program started
+2016-12-25 09:41:34,516->WARNING->sdfsdfd is going to crash your application
+2016-12-25 09:41:34,520->ERROR->invalid literal for int() with base 10: 'sdfsdfd'
+Traceback (most recent call last):
+  File "example.py", line 9, in <module>
+    a=int(a)
+ValueError: invalid literal for int() with base 10: 'sdfsdfd'
+2016-12-25 09:41:34,523->INFO->program ended
+2016-12-25 09:46:31,070->INFO->Function started
+2016-12-25 09:46:31,077->INFO->res=100
+2016-12-25 09:46:31,078->INFO->100
+2016-12-25 09:46:31,078->INFO->program started
+2016-12-25 09:46:33,794->WARNING->wert is going to crash your application
+2016-12-25 09:46:33,799->ERROR->invalid literal for int() with base 10: 'wert'
+Traceback (most recent call last):
+  File "example.py", line 12, in <module>
+    a=int(a)
+ValueError: invalid literal for int() with base 10: 'wert'
+2016-12-25 09:46:33,801->INFO->program ended
